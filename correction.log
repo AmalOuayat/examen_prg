@@ -1,0 +1,606 @@
+2025-01-31 21:31:39 - 
+
+=== DÉBUT DE LA CORRECTION ===
+2025-01-31 21:31:39 - Étudiant ID: 2, Examen ID: 5
+2025-01-31 21:31:39 - Questions trouvées:
+Array
+(
+    [0] => Array
+        (
+            [id_q] => 15
+            [exam_id] => 5
+            [texte] => pour quoi
+            [type] => text
+            [note_max] => 5.00
+            [id_re] => 61
+            [reponse_etudiant] => 
+            [type_question] => text
+            [points_max] => 5.00
+        )
+
+    [1] => Array
+        (
+            [id_q] => 16
+            [exam_id] => 5
+            [texte] => pour quoi33333
+            [type] => text
+            [note_max] => 5.00
+            [id_re] => 62
+            [reponse_etudiant] => 
+            [type_question] => text
+            [points_max] => 5.00
+        )
+
+    [2] => Array
+        (
+            [id_q] => 17
+            [exam_id] => 5
+            [texte] => QCM
+            [type] => qcm
+            [note_max] => 5.00
+            [id_re] => 63
+            [reponse_etudiant] => option
+            [type_question] => qcm
+            [points_max] => 5.00
+        )
+
+    [3] => Array
+        (
+            [id_q] => 18
+            [exam_id] => 5
+            [texte] => VRAI_FAUX
+            [type] => true_false
+            [note_max] => 5.00
+            [id_re] => 64
+            [reponse_etudiant] => vrai
+            [type_question] => true_false
+            [points_max] => 5.00
+        )
+
+)
+
+2025-01-31 21:31:39 - 
+=== Traitement de la question ID: 15 ===
+2025-01-31 21:31:39 - Type: text, Points max: 5.00
+2025-01-31 21:31:39 - Réponse étudiant brute: ''
+2025-01-31 21:31:39 - Type de la réponse: string
+2025-01-31 21:31:39 - Longueur de la réponse: 0
+2025-01-31 21:31:39 - Valeur ASCII de chaque caractère:
+2025-01-31 21:31:39 - Question de type text ignorée (pas de correction automatique)
+2025-01-31 21:31:39 - 
+=== Traitement de la question ID: 16 ===
+2025-01-31 21:31:39 - Type: text, Points max: 5.00
+2025-01-31 21:31:39 - Réponse étudiant brute: ''
+2025-01-31 21:31:39 - Type de la réponse: string
+2025-01-31 21:31:39 - Longueur de la réponse: 0
+2025-01-31 21:31:39 - Valeur ASCII de chaque caractère:
+2025-01-31 21:31:39 - Question de type text ignorée (pas de correction automatique)
+2025-01-31 21:31:39 - 
+=== Traitement de la question ID: 17 ===
+2025-01-31 21:31:39 - Type: qcm, Points max: 5.00
+2025-01-31 21:31:39 - Réponse étudiant brute: 'option'
+2025-01-31 21:31:39 - Type de la réponse: string
+2025-01-31 21:31:39 - Longueur de la réponse: 6
+2025-01-31 21:31:39 - Valeur ASCII de chaque caractère:
+2025-01-31 21:31:39 - - Position 0: 111
+2025-01-31 21:31:39 - - Position 1: 112
+2025-01-31 21:31:39 - - Position 2: 116
+2025-01-31 21:31:39 - - Position 3: 105
+2025-01-31 21:31:39 - - Position 4: 111
+2025-01-31 21:31:39 - - Position 5: 110
+2025-01-31 21:31:39 - Options disponibles:
+Array
+(
+    [0] => Array
+        (
+            [texte] => option correct 1
+            [correct] => 1
+        )
+
+    [1] => Array
+        (
+            [texte] => option
+            [correct] => 1
+        )
+
+)
+
+2025-01-31 21:31:39 - Analyse des réponses:
+2025-01-31 21:31:39 - - Nombre de bonnes réponses: 1 / 2
+2025-01-31 21:31:39 - - Réponses incorrectes:
+Array
+(
+)
+
+2025-01-31 21:31:39 - ~ Note partielle attribuée: 2.5 (1/2 correct)
+2025-01-31 21:31:39 - Note mise à jour pour id_re=63: 2.5
+2025-01-31 21:31:39 - 
+=== Traitement de la question ID: 18 ===
+2025-01-31 21:31:39 - Type: true_false, Points max: 5.00
+2025-01-31 21:31:39 - Réponse étudiant brute: 'vrai'
+2025-01-31 21:31:39 - Type de la réponse: string
+2025-01-31 21:31:39 - Longueur de la réponse: 4
+2025-01-31 21:31:39 - Valeur ASCII de chaque caractère:
+2025-01-31 21:31:39 - - Position 0: 118
+2025-01-31 21:31:39 - - Position 1: 114
+2025-01-31 21:31:39 - - Position 2: 97
+2025-01-31 21:31:39 - - Position 3: 105
+2025-01-31 21:31:39 - Vérification isTrue pour 'vrai' (normalisé: 'vrai')
+2025-01-31 21:31:39 - Résultat isTrue: VRAI
+2025-01-31 21:31:39 - Vérification isTrue pour 'Faux' (normalisé: 'faux')
+2025-01-31 21:31:39 - Résultat isTrue: FAUX
+2025-01-31 21:31:39 - Comparaison Vrai/Faux détaillée:
+2025-01-31 21:31:39 - - Réponse étudiant originale: 'vrai'
+2025-01-31 21:31:39 - - Réponse correcte dans options3: 'Faux'
+2025-01-31 21:31:39 - - Réponse étudiant convertie: VRAI
+2025-01-31 21:31:39 - - Réponse correcte convertie: FAUX
+2025-01-31 21:31:39 - - Comparaison: DIFFÉRENT
+2025-01-31 21:31:39 - ✗ Réponse incorrecte. Note: 0
+2025-01-31 21:31:39 - Note mise à jour pour id_re=64: 0
+2025-01-31 21:31:39 - 
+=== RÉSUMÉ DE LA CORRECTION ===
+2025-01-31 21:31:39 - Total des points: 2.5 / 10
+2025-01-31 21:31:39 - Fin de la correction
+
+2025-01-31 21:34:35 - 
+
+=== DÉBUT DE LA CORRECTION ===
+2025-01-31 21:34:35 - Étudiant ID: 2, Examen ID: 5
+2025-01-31 21:34:35 - Questions trouvées:
+Array
+(
+    [0] => Array
+        (
+            [id_q] => 15
+            [exam_id] => 5
+            [texte] => pour quoi
+            [type] => text
+            [note_max] => 5.00
+            [id_re] => 61
+            [reponse_etudiant] => 
+            [type_question] => text
+            [points_max] => 5.00
+        )
+
+    [1] => Array
+        (
+            [id_q] => 16
+            [exam_id] => 5
+            [texte] => pour quoi33333
+            [type] => text
+            [note_max] => 5.00
+            [id_re] => 62
+            [reponse_etudiant] => 
+            [type_question] => text
+            [points_max] => 5.00
+        )
+
+    [2] => Array
+        (
+            [id_q] => 17
+            [exam_id] => 5
+            [texte] => QCM
+            [type] => qcm
+            [note_max] => 5.00
+            [id_re] => 63
+            [reponse_etudiant] => option
+            [type_question] => qcm
+            [points_max] => 5.00
+        )
+
+    [3] => Array
+        (
+            [id_q] => 18
+            [exam_id] => 5
+            [texte] => VRAI_FAUX
+            [type] => true_false
+            [note_max] => 5.00
+            [id_re] => 64
+            [reponse_etudiant] => vrai
+            [type_question] => true_false
+            [points_max] => 5.00
+        )
+
+)
+
+2025-01-31 21:34:35 - 
+=== Traitement de la question ID: 15 ===
+2025-01-31 21:34:35 - Type: text, Points max: 5.00
+2025-01-31 21:34:35 - Réponse étudiant brute: ''
+2025-01-31 21:34:35 - Type de la réponse: string
+2025-01-31 21:34:35 - Longueur de la réponse: 0
+2025-01-31 21:34:35 - Valeur ASCII de chaque caractère:
+2025-01-31 21:34:35 - Question de type text ignorée (pas de correction automatique)
+2025-01-31 21:34:35 - 
+=== Traitement de la question ID: 16 ===
+2025-01-31 21:34:35 - Type: text, Points max: 5.00
+2025-01-31 21:34:35 - Réponse étudiant brute: ''
+2025-01-31 21:34:35 - Type de la réponse: string
+2025-01-31 21:34:35 - Longueur de la réponse: 0
+2025-01-31 21:34:35 - Valeur ASCII de chaque caractère:
+2025-01-31 21:34:35 - Question de type text ignorée (pas de correction automatique)
+2025-01-31 21:34:35 - 
+=== Traitement de la question ID: 17 ===
+2025-01-31 21:34:35 - Type: qcm, Points max: 5.00
+2025-01-31 21:34:35 - Réponse étudiant brute: 'option'
+2025-01-31 21:34:35 - Type de la réponse: string
+2025-01-31 21:34:35 - Longueur de la réponse: 6
+2025-01-31 21:34:35 - Valeur ASCII de chaque caractère:
+2025-01-31 21:34:35 - - Position 0: 111
+2025-01-31 21:34:35 - - Position 1: 112
+2025-01-31 21:34:35 - - Position 2: 116
+2025-01-31 21:34:35 - - Position 3: 105
+2025-01-31 21:34:35 - - Position 4: 111
+2025-01-31 21:34:35 - - Position 5: 110
+2025-01-31 21:34:35 - Options disponibles:
+Array
+(
+    [0] => Array
+        (
+            [texte] => option correct 1
+            [correct] => 1
+        )
+
+    [1] => Array
+        (
+            [texte] => option
+            [correct] => 1
+        )
+
+)
+
+2025-01-31 21:34:35 - Analyse des réponses:
+2025-01-31 21:34:35 - - Nombre de bonnes réponses: 1 / 2
+2025-01-31 21:34:35 - - Réponses incorrectes:
+Array
+(
+)
+
+2025-01-31 21:34:35 - ~ Note partielle attribuée: 2.5 (1/2 correct)
+2025-01-31 21:34:35 - Note mise à jour pour id_re=63: 2.5
+2025-01-31 21:34:35 - 
+=== Traitement de la question ID: 18 ===
+2025-01-31 21:34:35 - Type: true_false, Points max: 5.00
+2025-01-31 21:34:35 - Réponse étudiant brute: 'vrai'
+2025-01-31 21:34:35 - Type de la réponse: string
+2025-01-31 21:34:35 - Longueur de la réponse: 4
+2025-01-31 21:34:35 - Valeur ASCII de chaque caractère:
+2025-01-31 21:34:35 - - Position 0: 118
+2025-01-31 21:34:35 - - Position 1: 114
+2025-01-31 21:34:35 - - Position 2: 97
+2025-01-31 21:34:35 - - Position 3: 105
+2025-01-31 21:34:35 - Vérification isTrue pour 'vrai' (normalisé: 'vrai')
+2025-01-31 21:34:35 - Résultat isTrue: VRAI
+2025-01-31 21:34:35 - Vérification isTrue pour 'Faux' (normalisé: 'faux')
+2025-01-31 21:34:35 - Résultat isTrue: FAUX
+2025-01-31 21:34:35 - Comparaison Vrai/Faux détaillée:
+2025-01-31 21:34:35 - - Réponse étudiant originale: 'vrai'
+2025-01-31 21:34:35 - - Réponse correcte dans options3: 'Faux'
+2025-01-31 21:34:35 - - Réponse étudiant convertie: VRAI
+2025-01-31 21:34:35 - - Réponse correcte convertie: FAUX
+2025-01-31 21:34:35 - - Comparaison: DIFFÉRENT
+2025-01-31 21:34:35 - ✗ Réponse incorrecte. Note: 0
+2025-01-31 21:34:35 - Note mise à jour pour id_re=64: 0
+2025-01-31 21:34:35 - 
+=== RÉSUMÉ DE LA CORRECTION ===
+2025-01-31 21:34:35 - Total des points: 2.5 / 10
+2025-01-31 21:34:35 - Fin de la correction
+
+2025-01-31 21:37:20 - 
+
+=== DÉBUT DE LA CORRECTION ===
+2025-01-31 21:37:20 - Étudiant ID: 2, Examen ID: 5
+2025-01-31 21:37:20 - Questions trouvées:
+Array
+(
+    [0] => Array
+        (
+            [id_q] => 15
+            [exam_id] => 5
+            [texte] => pour quoi
+            [type] => text
+            [note_max] => 5.00
+            [id_re] => 61
+            [reponse_etudiant] => VVVV
+            [type_question] => text
+            [points_max] => 5.00
+        )
+
+    [1] => Array
+        (
+            [id_q] => 16
+            [exam_id] => 5
+            [texte] => pour quoi33333
+            [type] => text
+            [note_max] => 5.00
+            [id_re] => 62
+            [reponse_etudiant] => 
+            [type_question] => text
+            [points_max] => 5.00
+        )
+
+    [2] => Array
+        (
+            [id_q] => 17
+            [exam_id] => 5
+            [texte] => QCM
+            [type] => qcm
+            [note_max] => 5.00
+            [id_re] => 63
+            [reponse_etudiant] => option correct 1
+            [type_question] => qcm
+            [points_max] => 5.00
+        )
+
+    [3] => Array
+        (
+            [id_q] => 18
+            [exam_id] => 5
+            [texte] => VRAI_FAUX
+            [type] => true_false
+            [note_max] => 5.00
+            [id_re] => 64
+            [reponse_etudiant] => faux
+            [type_question] => true_false
+            [points_max] => 5.00
+        )
+
+)
+
+2025-01-31 21:37:20 - 
+=== Traitement de la question ID: 15 ===
+2025-01-31 21:37:20 - Type: text, Points max: 5.00
+2025-01-31 21:37:20 - Réponse étudiant brute: 'VVVV'
+2025-01-31 21:37:20 - Type de la réponse: string
+2025-01-31 21:37:20 - Longueur de la réponse: 4
+2025-01-31 21:37:20 - Valeur ASCII de chaque caractère:
+2025-01-31 21:37:20 - - Position 0: 86
+2025-01-31 21:37:20 - - Position 1: 86
+2025-01-31 21:37:20 - - Position 2: 86
+2025-01-31 21:37:20 - - Position 3: 86
+2025-01-31 21:37:20 - Question de type text ignorée (pas de correction automatique)
+2025-01-31 21:37:20 - 
+=== Traitement de la question ID: 16 ===
+2025-01-31 21:37:20 - Type: text, Points max: 5.00
+2025-01-31 21:37:20 - Réponse étudiant brute: ''
+2025-01-31 21:37:20 - Type de la réponse: string
+2025-01-31 21:37:20 - Longueur de la réponse: 0
+2025-01-31 21:37:20 - Valeur ASCII de chaque caractère:
+2025-01-31 21:37:20 - Question de type text ignorée (pas de correction automatique)
+2025-01-31 21:37:20 - 
+=== Traitement de la question ID: 17 ===
+2025-01-31 21:37:20 - Type: qcm, Points max: 5.00
+2025-01-31 21:37:20 - Réponse étudiant brute: 'option correct 1'
+2025-01-31 21:37:20 - Type de la réponse: string
+2025-01-31 21:37:20 - Longueur de la réponse: 16
+2025-01-31 21:37:20 - Valeur ASCII de chaque caractère:
+2025-01-31 21:37:20 - - Position 0: 111
+2025-01-31 21:37:20 - - Position 1: 112
+2025-01-31 21:37:20 - - Position 2: 116
+2025-01-31 21:37:20 - - Position 3: 105
+2025-01-31 21:37:20 - - Position 4: 111
+2025-01-31 21:37:20 - - Position 5: 110
+2025-01-31 21:37:20 - - Position 6: 32
+2025-01-31 21:37:20 - - Position 7: 99
+2025-01-31 21:37:20 - - Position 8: 111
+2025-01-31 21:37:20 - - Position 9: 114
+2025-01-31 21:37:20 - - Position 10: 114
+2025-01-31 21:37:20 - - Position 11: 101
+2025-01-31 21:37:20 - - Position 12: 99
+2025-01-31 21:37:20 - - Position 13: 116
+2025-01-31 21:37:20 - - Position 14: 32
+2025-01-31 21:37:20 - - Position 15: 49
+2025-01-31 21:37:20 - Options disponibles:
+Array
+(
+    [0] => Array
+        (
+            [texte] => option correct 1
+            [correct] => 1
+        )
+
+    [1] => Array
+        (
+            [texte] => option
+            [correct] => 1
+        )
+
+)
+
+2025-01-31 21:37:20 - Analyse des réponses:
+2025-01-31 21:37:20 - - Nombre de bonnes réponses: 1 / 2
+2025-01-31 21:37:20 - - Réponses incorrectes:
+Array
+(
+)
+
+2025-01-31 21:37:20 - ~ Note partielle attribuée: 2.5 (1/2 correct)
+2025-01-31 21:37:20 - Note mise à jour pour id_re=63: 2.5
+2025-01-31 21:37:20 - 
+=== Traitement de la question ID: 18 ===
+2025-01-31 21:37:20 - Type: true_false, Points max: 5.00
+2025-01-31 21:37:20 - Réponse étudiant brute: 'faux'
+2025-01-31 21:37:20 - Type de la réponse: string
+2025-01-31 21:37:20 - Longueur de la réponse: 4
+2025-01-31 21:37:20 - Valeur ASCII de chaque caractère:
+2025-01-31 21:37:20 - - Position 0: 102
+2025-01-31 21:37:20 - - Position 1: 97
+2025-01-31 21:37:20 - - Position 2: 117
+2025-01-31 21:37:20 - - Position 3: 120
+2025-01-31 21:37:20 - Vérification isTrue pour 'faux' (normalisé: 'faux')
+2025-01-31 21:37:20 - Résultat isTrue: FAUX
+2025-01-31 21:37:20 - Vérification isTrue pour 'Faux' (normalisé: 'faux')
+2025-01-31 21:37:20 - Résultat isTrue: FAUX
+2025-01-31 21:37:20 - Comparaison Vrai/Faux détaillée:
+2025-01-31 21:37:20 - - Réponse étudiant originale: 'faux'
+2025-01-31 21:37:20 - - Réponse correcte dans options3: 'Faux'
+2025-01-31 21:37:20 - - Réponse étudiant convertie: FAUX
+2025-01-31 21:37:20 - - Réponse correcte convertie: FAUX
+2025-01-31 21:37:20 - - Comparaison: ÉGAL
+2025-01-31 21:37:20 - ✓ Réponse correcte! Note attribuée: 5.00
+2025-01-31 21:37:20 - Note mise à jour pour id_re=64: 5.00
+2025-01-31 21:37:20 - 
+=== RÉSUMÉ DE LA CORRECTION ===
+2025-01-31 21:37:20 - Total des points: 7.5 / 10
+2025-01-31 21:37:20 - Fin de la correction
+
+2025-02-04 12:51:55 - 
+
+=== DÉBUT DE LA CORRECTION ===
+2025-02-04 12:51:55 - Étudiant ID: 2, Examen ID: 5
+2025-02-04 12:51:55 - Questions trouvées:
+Array
+(
+    [0] => Array
+        (
+            [id_q] => 15
+            [exam_id] => 5
+            [texte] => pour quoi
+            [type] => text
+            [note_max] => 5.00
+            [id_re] => 61
+            [reponse_etudiant] => azeraz
+            [type_question] => text
+            [points_max] => 5.00
+        )
+
+    [1] => Array
+        (
+            [id_q] => 16
+            [exam_id] => 5
+            [texte] => pour quoi33333
+            [type] => text
+            [note_max] => 5.00
+            [id_re] => 62
+            [reponse_etudiant] => 
+            [type_question] => text
+            [points_max] => 5.00
+        )
+
+    [2] => Array
+        (
+            [id_q] => 17
+            [exam_id] => 5
+            [texte] => QCM
+            [type] => qcm
+            [note_max] => 5.00
+            [id_re] => 63
+            [reponse_etudiant] => option correct 1
+            [type_question] => qcm
+            [points_max] => 5.00
+        )
+
+    [3] => Array
+        (
+            [id_q] => 18
+            [exam_id] => 5
+            [texte] => VRAI_FAUX
+            [type] => true_false
+            [note_max] => 5.00
+            [id_re] => 64
+            [reponse_etudiant] => faux
+            [type_question] => true_false
+            [points_max] => 5.00
+        )
+
+)
+
+2025-02-04 12:51:55 - 
+=== Traitement de la question ID: 15 ===
+2025-02-04 12:51:55 - Type: text, Points max: 5.00
+2025-02-04 12:51:55 - Réponse étudiant brute: 'azeraz'
+2025-02-04 12:51:55 - Type de la réponse: string
+2025-02-04 12:51:55 - Longueur de la réponse: 6
+2025-02-04 12:51:55 - Valeur ASCII de chaque caractère:
+2025-02-04 12:51:55 - - Position 0: 97
+2025-02-04 12:51:55 - - Position 1: 122
+2025-02-04 12:51:55 - - Position 2: 101
+2025-02-04 12:51:55 - - Position 3: 114
+2025-02-04 12:51:55 - - Position 4: 97
+2025-02-04 12:51:55 - - Position 5: 122
+2025-02-04 12:51:55 - Question de type text ignorée (pas de correction automatique)
+2025-02-04 12:51:55 - 
+=== Traitement de la question ID: 16 ===
+2025-02-04 12:51:55 - Type: text, Points max: 5.00
+2025-02-04 12:51:55 - Réponse étudiant brute: ''
+2025-02-04 12:51:55 - Type de la réponse: string
+2025-02-04 12:51:55 - Longueur de la réponse: 0
+2025-02-04 12:51:55 - Valeur ASCII de chaque caractère:
+2025-02-04 12:51:55 - Question de type text ignorée (pas de correction automatique)
+2025-02-04 12:51:55 - 
+=== Traitement de la question ID: 17 ===
+2025-02-04 12:51:55 - Type: qcm, Points max: 5.00
+2025-02-04 12:51:55 - Réponse étudiant brute: 'option correct 1'
+2025-02-04 12:51:55 - Type de la réponse: string
+2025-02-04 12:51:55 - Longueur de la réponse: 16
+2025-02-04 12:51:55 - Valeur ASCII de chaque caractère:
+2025-02-04 12:51:55 - - Position 0: 111
+2025-02-04 12:51:55 - - Position 1: 112
+2025-02-04 12:51:55 - - Position 2: 116
+2025-02-04 12:51:55 - - Position 3: 105
+2025-02-04 12:51:55 - - Position 4: 111
+2025-02-04 12:51:55 - - Position 5: 110
+2025-02-04 12:51:55 - - Position 6: 32
+2025-02-04 12:51:55 - - Position 7: 99
+2025-02-04 12:51:55 - - Position 8: 111
+2025-02-04 12:51:55 - - Position 9: 114
+2025-02-04 12:51:55 - - Position 10: 114
+2025-02-04 12:51:55 - - Position 11: 101
+2025-02-04 12:51:55 - - Position 12: 99
+2025-02-04 12:51:55 - - Position 13: 116
+2025-02-04 12:51:55 - - Position 14: 32
+2025-02-04 12:51:55 - - Position 15: 49
+2025-02-04 12:51:55 - Options disponibles:
+Array
+(
+    [0] => Array
+        (
+            [texte] => option correct 1
+            [correct] => 1
+        )
+
+    [1] => Array
+        (
+            [texte] => option
+            [correct] => 1
+        )
+
+)
+
+2025-02-04 12:51:55 - Analyse des réponses:
+2025-02-04 12:51:55 - - Nombre de bonnes réponses: 1 / 2
+2025-02-04 12:51:55 - - Réponses incorrectes:
+Array
+(
+)
+
+2025-02-04 12:51:55 - ~ Note partielle attribuée: 2.5 (1/2 correct)
+2025-02-04 12:51:55 - Note mise à jour pour id_re=63: 2.5
+2025-02-04 12:51:55 - 
+=== Traitement de la question ID: 18 ===
+2025-02-04 12:51:55 - Type: true_false, Points max: 5.00
+2025-02-04 12:51:55 - Réponse étudiant brute: 'faux'
+2025-02-04 12:51:55 - Type de la réponse: string
+2025-02-04 12:51:55 - Longueur de la réponse: 4
+2025-02-04 12:51:55 - Valeur ASCII de chaque caractère:
+2025-02-04 12:51:55 - - Position 0: 102
+2025-02-04 12:51:55 - - Position 1: 97
+2025-02-04 12:51:55 - - Position 2: 117
+2025-02-04 12:51:55 - - Position 3: 120
+2025-02-04 12:51:55 - Vérification isTrue pour 'faux' (normalisé: 'faux')
+2025-02-04 12:51:55 - Résultat isTrue: FAUX
+2025-02-04 12:51:55 - Vérification isTrue pour 'Faux' (normalisé: 'faux')
+2025-02-04 12:51:55 - Résultat isTrue: FAUX
+2025-02-04 12:51:55 - Comparaison Vrai/Faux détaillée:
+2025-02-04 12:51:55 - - Réponse étudiant originale: 'faux'
+2025-02-04 12:51:55 - - Réponse correcte dans options3: 'Faux'
+2025-02-04 12:51:55 - - Réponse étudiant convertie: FAUX
+2025-02-04 12:51:55 - - Réponse correcte convertie: FAUX
+2025-02-04 12:51:55 - - Comparaison: ÉGAL
+2025-02-04 12:51:55 - ✓ Réponse correcte! Note attribuée: 5.00
+2025-02-04 12:51:55 - Note mise à jour pour id_re=64: 5.00
+2025-02-04 12:51:55 - 
+=== RÉSUMÉ DE LA CORRECTION ===
+2025-02-04 12:51:55 - Total des points: 7.5 / 10
+2025-02-04 12:51:55 - Fin de la correction
+

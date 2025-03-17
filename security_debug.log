@@ -1,0 +1,4014 @@
+2025-01-30 22:06:23 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:06:23 - Données brutes reçues: {"event_type":"exam_started","timestamp":"2025-01-30T21:06:23.672Z"}
+2025-01-30 22:06:23 - Tentative de création/vérification de la table
+2025-01-30 22:06:23 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => exam_started
+    [:timestamp] => 2025-01-30 22:06:23
+    [:event_data] => {"event_type":"exam_started","timestamp":"2025-01-30T21:06:23.672Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:06:23 - Événement enregistré avec succès, ID: 22
+2025-01-30 22:06:23 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+            [exam_id] => 0
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:06:23 - Données brutes reçues: {"screen_width":1280,"screen_height":720,"is_fullscreen":false,"event_type":"page_load","timestamp":"2025-01-30T21:06:23.673Z"}
+2025-01-30 22:06:23 - Tentative de création/vérification de la table
+2025-01-30 22:06:23 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => page_load
+    [:timestamp] => 2025-01-30 22:06:23
+    [:event_data] => {"screen_width":1280,"screen_height":720,"is_fullscreen":false,"event_type":"page_load","timestamp":"2025-01-30T21:06:23.673Z"}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:06:23 - Événement enregistré avec succès, ID: 23
+2025-01-30 22:06:23 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:06:23 - Données brutes reçues: {"event_type":"fullscreen_error","timestamp":"2025-01-30T21:06:23.675Z"}
+2025-01-30 22:06:23 - Tentative de création/vérification de la table
+2025-01-30 22:06:23 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => fullscreen_error
+    [:timestamp] => 2025-01-30 22:06:23
+    [:event_data] => {"event_type":"fullscreen_error","timestamp":"2025-01-30T21:06:23.675Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:06:23 - Événement enregistré avec succès, ID: 24
+2025-01-30 22:06:29 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:06:29 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:06:29.043Z"}
+2025-01-30 22:06:29 - Tentative de création/vérification de la table
+2025-01-30 22:06:29 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:06:29
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:06:29.043Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:06:29 - Événement enregistré avec succès, ID: 25
+2025-01-30 22:07:00 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:07:00 - Données brutes reçues: {"event_type":"page_exit_attempt","timestamp":"2025-01-30T21:07:00.899Z"}
+2025-01-30 22:07:00 - Tentative de création/vérification de la table
+2025-01-30 22:07:00 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => page_exit_attempt
+    [:timestamp] => 2025-01-30 22:07:00
+    [:event_data] => {"event_type":"page_exit_attempt","timestamp":"2025-01-30T21:07:00.899Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:07:00 - Événement enregistré avec succès, ID: 26
+2025-01-30 22:07:00 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:07:00 - Données brutes reçues: {"event_type":"visibility_change","timestamp":"2025-01-30T21:07:00.973Z"}
+2025-01-30 22:07:00 - Tentative de création/vérification de la table
+2025-01-30 22:07:00 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => visibility_change
+    [:timestamp] => 2025-01-30 22:07:00
+    [:event_data] => {"event_type":"visibility_change","timestamp":"2025-01-30T21:07:00.973Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:07:00 - Événement enregistré avec succès, ID: 27
+2025-01-30 22:07:01 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:07:01 - Données brutes reçues: {"event_type":"exam_started","timestamp":"2025-01-30T21:07:00.996Z"}
+2025-01-30 22:07:01 - Tentative de création/vérification de la table
+2025-01-30 22:07:01 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => exam_started
+    [:timestamp] => 2025-01-30 22:07:00
+    [:event_data] => {"event_type":"exam_started","timestamp":"2025-01-30T21:07:00.996Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:07:01 - Événement enregistré avec succès, ID: 28
+2025-01-30 22:07:01 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:07:01 - Données brutes reçues: {"event_type":"fullscreen_error","timestamp":"2025-01-30T21:07:00.999Z"}
+2025-01-30 22:07:01 - Tentative de création/vérification de la table
+2025-01-30 22:07:01 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => fullscreen_error
+    [:timestamp] => 2025-01-30 22:07:00
+    [:event_data] => {"event_type":"fullscreen_error","timestamp":"2025-01-30T21:07:00.999Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:07:01 - Événement enregistré avec succès, ID: 29
+2025-01-30 22:07:10 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:07:10 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:07:10.385Z"}
+2025-01-30 22:07:10 - Tentative de création/vérification de la table
+2025-01-30 22:07:10 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:07:10
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:07:10.385Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:07:10 - Événement enregistré avec succès, ID: 30
+2025-01-30 22:07:46 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:07:46 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:07:46.075Z"}
+2025-01-30 22:07:46 - Tentative de création/vérification de la table
+2025-01-30 22:07:46 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:07:46
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:07:46.075Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:07:46 - Événement enregistré avec succès, ID: 31
+2025-01-30 22:07:47 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:07:47 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:07:47.406Z"}
+2025-01-30 22:07:47 - Tentative de création/vérification de la table
+2025-01-30 22:07:47 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:07:47
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:07:47.406Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:07:47 - Événement enregistré avec succès, ID: 32
+2025-01-30 22:07:48 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:07:48 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:07:48.689Z"}
+2025-01-30 22:07:48 - Tentative de création/vérification de la table
+2025-01-30 22:07:48 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:07:48
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:07:48.689Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:07:48 - Événement enregistré avec succès, ID: 33
+2025-01-30 22:07:53 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:07:53 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:07:53.538Z"}
+2025-01-30 22:07:53 - Tentative de création/vérification de la table
+2025-01-30 22:07:53 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:07:53
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:07:53.538Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:07:53 - Événement enregistré avec succès, ID: 34
+2025-01-30 22:07:54 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:07:54 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:07:54.369Z"}
+2025-01-30 22:07:54 - Tentative de création/vérification de la table
+2025-01-30 22:07:54 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:07:54
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:07:54.369Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:07:54 - Événement enregistré avec succès, ID: 35
+2025-01-30 22:07:57 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:07:57 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:07:57.076Z"}
+2025-01-30 22:07:57 - Tentative de création/vérification de la table
+2025-01-30 22:07:57 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:07:57
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:07:57.076Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:07:57 - Événement enregistré avec succès, ID: 36
+2025-01-30 22:07:57 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:07:57 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:07:57.752Z"}
+2025-01-30 22:07:57 - Tentative de création/vérification de la table
+2025-01-30 22:07:57 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:07:57
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:07:57.752Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:07:57 - Événement enregistré avec succès, ID: 37
+2025-01-30 22:08:00 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:08:00 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:08:00.303Z"}
+2025-01-30 22:08:00 - Tentative de création/vérification de la table
+2025-01-30 22:08:00 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:08:00
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:08:00.303Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:08:00 - Événement enregistré avec succès, ID: 38
+2025-01-30 22:08:01 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:08:01 - Données brutes reçues: {"event_type":"visibility_change","timestamp":"2025-01-30T21:08:01.163Z"}
+2025-01-30 22:08:01 - Tentative de création/vérification de la table
+2025-01-30 22:08:01 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => visibility_change
+    [:timestamp] => 2025-01-30 22:08:01
+    [:event_data] => {"event_type":"visibility_change","timestamp":"2025-01-30T21:08:01.163Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:08:01 - Événement enregistré avec succès, ID: 39
+2025-01-30 22:15:15 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:15:15 - Données brutes reçues: {"event_type":"exam_started","timestamp":"2025-01-30T21:15:15.753Z"}
+2025-01-30 22:15:15 - Tentative de création/vérification de la table
+2025-01-30 22:15:15 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => exam_started
+    [:timestamp] => 2025-01-30 22:15:15
+    [:event_data] => {"event_type":"exam_started","timestamp":"2025-01-30T21:15:15.753Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:15:15 - Événement enregistré avec succès, ID: 40
+2025-01-30 22:15:15 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:15:15 - Données brutes reçues: {"event_type":"fullscreen_error","timestamp":"2025-01-30T21:15:15.759Z"}
+2025-01-30 22:15:15 - Tentative de création/vérification de la table
+2025-01-30 22:15:15 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => fullscreen_error
+    [:timestamp] => 2025-01-30 22:15:15
+    [:event_data] => {"event_type":"fullscreen_error","timestamp":"2025-01-30T21:15:15.759Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:15:15 - Événement enregistré avec succès, ID: 41
+2025-01-30 22:15:26 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:15:26 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:15:26.062Z"}
+2025-01-30 22:15:26 - Tentative de création/vérification de la table
+2025-01-30 22:15:26 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:15:26
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:15:26.062Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:15:26 - Événement enregistré avec succès, ID: 42
+2025-01-30 22:16:17 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:16:17 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:16:17.924Z"}
+2025-01-30 22:16:17 - Tentative de création/vérification de la table
+2025-01-30 22:16:17 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:16:17
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:16:17.924Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:16:17 - Événement enregistré avec succès, ID: 43
+2025-01-30 22:16:18 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:16:18 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:16:18.806Z"}
+2025-01-30 22:16:18 - Tentative de création/vérification de la table
+2025-01-30 22:16:18 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:16:18
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:16:18.806Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:16:18 - Événement enregistré avec succès, ID: 44
+2025-01-30 22:16:19 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:16:19 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:16:19.515Z"}
+2025-01-30 22:16:19 - Tentative de création/vérification de la table
+2025-01-30 22:16:19 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:16:19
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:16:19.515Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:16:19 - Événement enregistré avec succès, ID: 45
+2025-01-30 22:16:20 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:16:20 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:16:20.312Z"}
+2025-01-30 22:16:20 - Tentative de création/vérification de la table
+2025-01-30 22:16:20 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:16:20
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:16:20.312Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:16:20 - Événement enregistré avec succès, ID: 46
+2025-01-30 22:16:21 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:16:21 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:16:21.006Z"}
+2025-01-30 22:16:21 - Tentative de création/vérification de la table
+2025-01-30 22:16:21 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:16:21
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:16:21.006Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:16:21 - Événement enregistré avec succès, ID: 47
+2025-01-30 22:16:23 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:16:23 - Données brutes reçues: {"event_type":"window_blur","timestamp":"2025-01-30T21:16:23.075Z"}
+2025-01-30 22:16:23 - Tentative de création/vérification de la table
+2025-01-30 22:16:23 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_blur
+    [:timestamp] => 2025-01-30 22:16:23
+    [:event_data] => {"event_type":"window_blur","timestamp":"2025-01-30T21:16:23.075Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:16:23 - Événement enregistré avec succès, ID: 48
+2025-01-30 22:16:35 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-30 22:16:35 - Données brutes reçues: {"event_type":"visibility_change","timestamp":"2025-01-30T21:16:35.409Z"}
+2025-01-30 22:16:35 - Tentative de création/vérification de la table
+2025-01-30 22:16:35 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => visibility_change
+    [:timestamp] => 2025-01-30 22:16:35
+    [:event_data] => {"event_type":"visibility_change","timestamp":"2025-01-30T21:16:35.409Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-30 22:16:35 - Événement enregistré avec succès, ID: 49
+2025-01-31 21:36:01 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+            [exam_id] => 0
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:01 - Données brutes reçues: {"screen_width":1280,"screen_height":720,"is_fullscreen":false,"event_type":"page_load","timestamp":"2025-01-31T20:36:01.738Z"}
+2025-01-31 21:36:01 - Tentative de création/vérification de la table
+2025-01-31 21:36:01 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => page_load
+    [:timestamp] => 2025-01-31 21:36:01
+    [:event_data] => {"screen_width":1280,"screen_height":720,"is_fullscreen":false,"event_type":"page_load","timestamp":"2025-01-31T20:36:01.738Z"}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:01 - Événement enregistré avec succès, ID: 291
+2025-01-31 21:36:04 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:04 - Données brutes reçues: {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:04.031Z"}
+2025-01-31 21:36:04 - Tentative de création/vérification de la table
+2025-01-31 21:36:04 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => text_selection_attempt
+    [:timestamp] => 2025-01-31 21:36:04
+    [:event_data] => {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:04.031Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:04 - Événement enregistré avec succès, ID: 292
+2025-01-31 21:36:06 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:06 - Données brutes reçues: {"event_type":"right_click_attempt","timestamp":"2025-01-31T20:36:06.172Z"}
+2025-01-31 21:36:06 - Tentative de création/vérification de la table
+2025-01-31 21:36:06 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => right_click_attempt
+    [:timestamp] => 2025-01-31 21:36:06
+    [:event_data] => {"event_type":"right_click_attempt","timestamp":"2025-01-31T20:36:06.172Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:06 - Événement enregistré avec succès, ID: 293
+2025-01-31 21:36:12 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:12 - Données brutes reçues: {"event_type":"paste_attempt","timestamp":"2025-01-31T20:36:12.298Z"}
+2025-01-31 21:36:12 - Tentative de création/vérification de la table
+2025-01-31 21:36:12 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => paste_attempt
+    [:timestamp] => 2025-01-31 21:36:12
+    [:event_data] => {"event_type":"paste_attempt","timestamp":"2025-01-31T20:36:12.298Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:12 - Événement enregistré avec succès, ID: 294
+2025-01-31 21:36:12 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:12 - Données brutes reçues: {"event_type":"copy_paste_detected","timestamp":"2025-01-31T20:36:12.299Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"action":"paste"}
+2025-01-31 21:36:12 - Tentative de création/vérification de la table
+2025-01-31 21:36:12 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => copy_paste_detected
+    [:timestamp] => 2025-01-31 21:36:12
+    [:event_data] => {"event_type":"copy_paste_detected","timestamp":"2025-01-31T20:36:12.299Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"action":"paste"}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:12 - Événement enregistré avec succès, ID: 295
+2025-01-31 21:36:12 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:12 - Données brutes reçues: {"event_type":"multiple_browser_tabs","timestamp":"2025-01-31T20:36:12.301Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":3}
+2025-01-31 21:36:12 - Tentative de création/vérification de la table
+2025-01-31 21:36:12 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => multiple_browser_tabs
+    [:timestamp] => 2025-01-31 21:36:12
+    [:event_data] => {"event_type":"multiple_browser_tabs","timestamp":"2025-01-31T20:36:12.301Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":3}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:12 - Événement enregistré avec succès, ID: 297
+2025-01-31 21:36:14 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:14 - Données brutes reçues: {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:14.410Z"}
+2025-01-31 21:36:14 - Tentative de création/vérification de la table
+2025-01-31 21:36:14 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => text_selection_attempt
+    [:timestamp] => 2025-01-31 21:36:14
+    [:event_data] => {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:14.410Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:14 - Événement enregistré avec succès, ID: 299
+2025-01-31 21:36:22 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:22 - Données brutes reçues: {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:22.587Z"}
+2025-01-31 21:36:22 - Tentative de création/vérification de la table
+2025-01-31 21:36:22 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => text_selection_attempt
+    [:timestamp] => 2025-01-31 21:36:22
+    [:event_data] => {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:22.587Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:22 - Événement enregistré avec succès, ID: 300
+2025-01-31 21:36:23 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:23 - Données brutes reçues: {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:23.263Z"}
+2025-01-31 21:36:23 - Tentative de création/vérification de la table
+2025-01-31 21:36:23 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => text_selection_attempt
+    [:timestamp] => 2025-01-31 21:36:23
+    [:event_data] => {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:23.263Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:23 - Événement enregistré avec succès, ID: 301
+2025-01-31 21:36:23 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:23 - Données brutes reçues: {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:23.607Z"}
+2025-01-31 21:36:23 - Tentative de création/vérification de la table
+2025-01-31 21:36:23 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => text_selection_attempt
+    [:timestamp] => 2025-01-31 21:36:23
+    [:event_data] => {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:23.607Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:23 - Événement enregistré avec succès, ID: 302
+2025-01-31 21:36:23 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:23 - Données brutes reçues: {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:23.821Z"}
+2025-01-31 21:36:23 - Tentative de création/vérification de la table
+2025-01-31 21:36:23 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => text_selection_attempt
+    [:timestamp] => 2025-01-31 21:36:23
+    [:event_data] => {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:23.821Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:23 - Événement enregistré avec succès, ID: 303
+2025-01-31 21:36:24 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:24 - Données brutes reçues: {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:24.004Z"}
+2025-01-31 21:36:24 - Tentative de création/vérification de la table
+2025-01-31 21:36:24 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => text_selection_attempt
+    [:timestamp] => 2025-01-31 21:36:24
+    [:event_data] => {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:24.004Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:24 - Événement enregistré avec succès, ID: 304
+2025-01-31 21:36:24 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:24 - Données brutes reçues: {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:24.196Z"}
+2025-01-31 21:36:24 - Tentative de création/vérification de la table
+2025-01-31 21:36:24 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => text_selection_attempt
+    [:timestamp] => 2025-01-31 21:36:24
+    [:event_data] => {"event_type":"text_selection_attempt","timestamp":"2025-01-31T20:36:24.196Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:24 - Événement enregistré avec succès, ID: 305
+2025-01-31 21:36:34 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:34 - Données brutes reçues: {"event_type":"copy_attempt","timestamp":"2025-01-31T20:36:34.432Z"}
+2025-01-31 21:36:34 - Tentative de création/vérification de la table
+2025-01-31 21:36:34 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => copy_attempt
+    [:timestamp] => 2025-01-31 21:36:34
+    [:event_data] => {"event_type":"copy_attempt","timestamp":"2025-01-31T20:36:34.432Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:34 - Événement enregistré avec succès, ID: 306
+2025-01-31 21:36:34 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:34 - Données brutes reçues: {"event_type":"copy_paste_detected","timestamp":"2025-01-31T20:36:34.433Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"action":"copy"}
+2025-01-31 21:36:34 - Tentative de création/vérification de la table
+2025-01-31 21:36:34 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => copy_paste_detected
+    [:timestamp] => 2025-01-31 21:36:34
+    [:event_data] => {"event_type":"copy_paste_detected","timestamp":"2025-01-31T20:36:34.433Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"action":"copy"}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:34 - Événement enregistré avec succès, ID: 307
+2025-01-31 21:36:34 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:34 - Données brutes reçues: {"event_type":"multiple_browser_tabs","timestamp":"2025-01-31T20:36:34.436Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":4}
+2025-01-31 21:36:34 - Tentative de création/vérification de la table
+2025-01-31 21:36:34 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => multiple_browser_tabs
+    [:timestamp] => 2025-01-31 21:36:34
+    [:event_data] => {"event_type":"multiple_browser_tabs","timestamp":"2025-01-31T20:36:34.436Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":4}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:34 - Événement enregistré avec succès, ID: 309
+2025-01-31 21:36:34 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:36:34 - Données brutes reçues: {"event_type":"suspicious_browser_resize","timestamp":"2025-01-31T20:36:34.480Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_size":{"width":1278,"height":586},"current_size":{"width":653,"height":586},"size_difference":625}
+2025-01-31 21:36:34 - Tentative de création/vérification de la table
+2025-01-31 21:36:34 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => suspicious_browser_resize
+    [:timestamp] => 2025-01-31 21:36:34
+    [:event_data] => {"event_type":"suspicious_browser_resize","timestamp":"2025-01-31T20:36:34.480Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_size":{"width":1278,"height":586},"current_size":{"width":653,"height":586},"size_difference":625}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:36:34 - Événement enregistré avec succès, ID: 311
+2025-01-31 21:37:14 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:37:14 - Données brutes reçues: {"event_type":"exam_timeout","timestamp":"2025-01-31T20:37:14.699Z"}
+2025-01-31 21:37:14 - Tentative de création/vérification de la table
+2025-01-31 21:37:14 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => exam_timeout
+    [:timestamp] => 2025-01-31 21:37:14
+    [:event_data] => {"event_type":"exam_timeout","timestamp":"2025-01-31T20:37:14.699Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:37:14 - Événement enregistré avec succès, ID: 314
+2025-01-31 21:37:14 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:37:14 - Données brutes reçues: {"event_type":"page_leave_attempt","timestamp":"2025-01-31T20:37:14.703Z"}
+2025-01-31 21:37:14 - Tentative de création/vérification de la table
+2025-01-31 21:37:14 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => page_leave_attempt
+    [:timestamp] => 2025-01-31 21:37:14
+    [:event_data] => {"event_type":"page_leave_attempt","timestamp":"2025-01-31T20:37:14.703Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:37:14 - Événement enregistré avec succès, ID: 315
+2025-01-31 21:37:20 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:37:20 - Données brutes reçues: {"event_type":"multiple_browser_tabs","timestamp":"2025-01-31T20:37:19.983Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":5}
+2025-01-31 21:37:20 - Tentative de création/vérification de la table
+2025-01-31 21:37:20 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => multiple_browser_tabs
+    [:timestamp] => 2025-01-31 21:37:19
+    [:event_data] => {"event_type":"multiple_browser_tabs","timestamp":"2025-01-31T20:37:19.983Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":5}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:37:20 - Événement enregistré avec succès, ID: 316
+2025-01-31 21:37:20 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:37:20 - Données brutes reçues: {"event_type":"window_change","timestamp":"2025-01-31T20:37:20.031Z"}
+2025-01-31 21:37:20 - Tentative de création/vérification de la table
+2025-01-31 21:37:20 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_change
+    [:timestamp] => 2025-01-31 21:37:20
+    [:event_data] => {"event_type":"window_change","timestamp":"2025-01-31T20:37:20.031Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:37:20 - Événement enregistré avec succès, ID: 318
+2025-01-31 21:37:20 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+            [user_id] => 4
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-01-31 21:37:20 - Données brutes reçues: {"event_type":"tab_switch","timestamp":"2025-01-31T20:37:20.032Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"visible","current_state":"hidden","switch_count":1}
+2025-01-31 21:37:20 - Tentative de création/vérification de la table
+2025-01-31 21:37:20 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => tab_switch
+    [:timestamp] => 2025-01-31 21:37:20
+    [:event_data] => {"event_type":"tab_switch","timestamp":"2025-01-31T20:37:20.032Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"visible","current_state":"hidden","switch_count":1}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-01-31 21:37:20 - Événement enregistré avec succès, ID: 319
+2025-02-04 12:50:30 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+            [exam_id] => 0
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:50:30 - Données brutes reçues: {"screen_width":1280,"screen_height":720,"is_fullscreen":false,"event_type":"page_load","timestamp":"2025-02-04T11:50:29.971Z"}
+2025-02-04 12:50:30 - Tentative de création/vérification de la table
+2025-02-04 12:50:30 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => page_load
+    [:timestamp] => 2025-02-04 12:50:29
+    [:event_data] => {"screen_width":1280,"screen_height":720,"is_fullscreen":false,"event_type":"page_load","timestamp":"2025-02-04T11:50:29.971Z"}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:50:30 - Événement enregistré avec succès, ID: 401
+2025-02-04 12:50:46 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:50:46 - Données brutes reçues: {"event_type":"keyboard_shortcut_attempt","timestamp":"2025-02-04T11:50:46.798Z"}
+2025-02-04 12:50:46 - Tentative de création/vérification de la table
+2025-02-04 12:50:46 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => keyboard_shortcut_attempt
+    [:timestamp] => 2025-02-04 12:50:46
+    [:event_data] => {"event_type":"keyboard_shortcut_attempt","timestamp":"2025-02-04T11:50:46.798Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:50:46 - Événement enregistré avec succès, ID: 402
+2025-02-04 12:50:54 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:50:54 - Données brutes reçues: {"event_type":"keyboard_shortcut_attempt","timestamp":"2025-02-04T11:50:54.057Z"}
+2025-02-04 12:50:54 - Tentative de création/vérification de la table
+2025-02-04 12:50:54 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => keyboard_shortcut_attempt
+    [:timestamp] => 2025-02-04 12:50:54
+    [:event_data] => {"event_type":"keyboard_shortcut_attempt","timestamp":"2025-02-04T11:50:54.057Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:50:54 - Événement enregistré avec succès, ID: 403
+2025-02-04 12:50:54 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:50:54 - Données brutes reçues: {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:50:54.061Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":3}
+2025-02-04 12:50:54 - Tentative de création/vérification de la table
+2025-02-04 12:50:54 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => multiple_browser_tabs
+    [:timestamp] => 2025-02-04 12:50:54
+    [:event_data] => {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:50:54.061Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":3}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:50:54 - Événement enregistré avec succès, ID: 404
+2025-02-04 12:50:57 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:50:57 - Données brutes reçues: {"event_type":"keyboard_shortcut_attempt","timestamp":"2025-02-04T11:50:57.115Z"}
+2025-02-04 12:50:57 - Tentative de création/vérification de la table
+2025-02-04 12:50:57 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => keyboard_shortcut_attempt
+    [:timestamp] => 2025-02-04 12:50:57
+    [:event_data] => {"event_type":"keyboard_shortcut_attempt","timestamp":"2025-02-04T11:50:57.115Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:50:57 - Événement enregistré avec succès, ID: 406
+2025-02-04 12:50:57 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:50:57 - Données brutes reçues: {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:50:57.119Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":4}
+2025-02-04 12:50:57 - Tentative de création/vérification de la table
+2025-02-04 12:50:57 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => multiple_browser_tabs
+    [:timestamp] => 2025-02-04 12:50:57
+    [:event_data] => {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:50:57.119Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":4}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:50:57 - Événement enregistré avec succès, ID: 407
+2025-02-04 12:51:01 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:01 - Données brutes reçues: {"event_type":"right_click_attempt","timestamp":"2025-02-04T11:51:01.761Z"}
+2025-02-04 12:51:01 - Tentative de création/vérification de la table
+2025-02-04 12:51:01 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => right_click_attempt
+    [:timestamp] => 2025-02-04 12:51:01
+    [:event_data] => {"event_type":"right_click_attempt","timestamp":"2025-02-04T11:51:01.761Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:01 - Événement enregistré avec succès, ID: 409
+2025-02-04 12:51:01 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:01 - Données brutes reçues: {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:51:01.765Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":5}
+2025-02-04 12:51:01 - Tentative de création/vérification de la table
+2025-02-04 12:51:01 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => multiple_browser_tabs
+    [:timestamp] => 2025-02-04 12:51:01
+    [:event_data] => {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:51:01.765Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":5}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:01 - Événement enregistré avec succès, ID: 410
+2025-02-04 12:51:03 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:03 - Données brutes reçues: {"event_type":"window_change","timestamp":"2025-02-04T11:51:03.797Z"}
+2025-02-04 12:51:03 - Tentative de création/vérification de la table
+2025-02-04 12:51:03 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_change
+    [:timestamp] => 2025-02-04 12:51:03
+    [:event_data] => {"event_type":"window_change","timestamp":"2025-02-04T11:51:03.797Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:03 - Événement enregistré avec succès, ID: 412
+2025-02-04 12:51:03 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:03 - Données brutes reçues: {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:03.798Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"visible","current_state":"hidden","switch_count":1}
+2025-02-04 12:51:03 - Tentative de création/vérification de la table
+2025-02-04 12:51:03 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => tab_switch
+    [:timestamp] => 2025-02-04 12:51:03
+    [:event_data] => {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:03.798Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"visible","current_state":"hidden","switch_count":1}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:03 - Événement enregistré avec succès, ID: 413
+2025-02-04 12:51:06 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:06 - Données brutes reçues: {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:05.969Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"hidden","current_state":"visible","switch_count":2}
+2025-02-04 12:51:06 - Tentative de création/vérification de la table
+2025-02-04 12:51:06 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => tab_switch
+    [:timestamp] => 2025-02-04 12:51:05
+    [:event_data] => {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:05.969Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"hidden","current_state":"visible","switch_count":2}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:06 - Événement enregistré avec succès, ID: 415
+2025-02-04 12:51:13 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:13 - Données brutes reçues: {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:51:13.357Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":6}
+2025-02-04 12:51:13 - Tentative de création/vérification de la table
+2025-02-04 12:51:13 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => multiple_browser_tabs
+    [:timestamp] => 2025-02-04 12:51:13
+    [:event_data] => {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:51:13.357Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":6}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:13 - Événement enregistré avec succès, ID: 417
+2025-02-04 12:51:24 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:24 - Données brutes reçues: {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:51:24.868Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":7}
+2025-02-04 12:51:24 - Tentative de création/vérification de la table
+2025-02-04 12:51:24 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => multiple_browser_tabs
+    [:timestamp] => 2025-02-04 12:51:24
+    [:event_data] => {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:51:24.868Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":7}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:24 - Événement enregistré avec succès, ID: 419
+2025-02-04 12:51:43 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:43 - Données brutes reçues: {"event_type":"window_change","timestamp":"2025-02-04T11:51:43.851Z"}
+2025-02-04 12:51:43 - Tentative de création/vérification de la table
+2025-02-04 12:51:43 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_change
+    [:timestamp] => 2025-02-04 12:51:43
+    [:event_data] => {"event_type":"window_change","timestamp":"2025-02-04T11:51:43.851Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:43 - Événement enregistré avec succès, ID: 421
+2025-02-04 12:51:43 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:43 - Données brutes reçues: {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:43.852Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"visible","current_state":"hidden","switch_count":3}
+2025-02-04 12:51:43 - Tentative de création/vérification de la table
+2025-02-04 12:51:43 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => tab_switch
+    [:timestamp] => 2025-02-04 12:51:43
+    [:event_data] => {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:43.852Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"visible","current_state":"hidden","switch_count":3}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:43 - Événement enregistré avec succès, ID: 422
+2025-02-04 12:51:43 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:43 - Données brutes reçues: {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:43.857Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"hidden","current_state":"visible","switch_count":4}
+2025-02-04 12:51:43 - Tentative de création/vérification de la table
+2025-02-04 12:51:43 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => tab_switch
+    [:timestamp] => 2025-02-04 12:51:43
+    [:event_data] => {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:43.857Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"hidden","current_state":"visible","switch_count":4}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:43 - Événement enregistré avec succès, ID: 424
+2025-02-04 12:51:43 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:43 - Données brutes reçues: {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:51:43.854Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":8}
+2025-02-04 12:51:43 - Tentative de création/vérification de la table
+2025-02-04 12:51:43 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => multiple_browser_tabs
+    [:timestamp] => 2025-02-04 12:51:43
+    [:event_data] => {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:51:43.854Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":8}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:44 - Événement enregistré avec succès, ID: 426
+2025-02-04 12:51:45 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:45 - Données brutes reçues: {"event_type":"window_change","timestamp":"2025-02-04T11:51:44.995Z"}
+2025-02-04 12:51:45 - Tentative de création/vérification de la table
+2025-02-04 12:51:45 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_change
+    [:timestamp] => 2025-02-04 12:51:44
+    [:event_data] => {"event_type":"window_change","timestamp":"2025-02-04T11:51:44.995Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:45 - Événement enregistré avec succès, ID: 428
+2025-02-04 12:51:45 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:45 - Données brutes reçues: {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:44.996Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"visible","current_state":"hidden","switch_count":5}
+2025-02-04 12:51:45 - Tentative de création/vérification de la table
+2025-02-04 12:51:45 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => tab_switch
+    [:timestamp] => 2025-02-04 12:51:44
+    [:event_data] => {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:44.996Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"visible","current_state":"hidden","switch_count":5}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:45 - Événement enregistré avec succès, ID: 429
+2025-02-04 12:51:45 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:45 - Données brutes reçues: {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:45.002Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"hidden","current_state":"visible","switch_count":6}
+2025-02-04 12:51:45 - Tentative de création/vérification de la table
+2025-02-04 12:51:45 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => tab_switch
+    [:timestamp] => 2025-02-04 12:51:45
+    [:event_data] => {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:45.002Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"hidden","current_state":"visible","switch_count":6}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:45 - Événement enregistré avec succès, ID: 431
+2025-02-04 12:51:45 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:45 - Données brutes reçues: {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:51:45.000Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":9}
+2025-02-04 12:51:45 - Tentative de création/vérification de la table
+2025-02-04 12:51:45 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => multiple_browser_tabs
+    [:timestamp] => 2025-02-04 12:51:45
+    [:event_data] => {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:51:45.000Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":9}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:45 - Événement enregistré avec succès, ID: 433
+2025-02-04 12:51:49 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:49 - Données brutes reçues: {"event_type":"exam_timeout","timestamp":"2025-02-04T11:51:49.015Z"}
+2025-02-04 12:51:49 - Tentative de création/vérification de la table
+2025-02-04 12:51:49 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => exam_timeout
+    [:timestamp] => 2025-02-04 12:51:49
+    [:event_data] => {"event_type":"exam_timeout","timestamp":"2025-02-04T11:51:49.015Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:49 - Événement enregistré avec succès, ID: 435
+2025-02-04 12:51:49 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:49 - Données brutes reçues: {"event_type":"page_leave_attempt","timestamp":"2025-02-04T11:51:49.019Z"}
+2025-02-04 12:51:49 - Tentative de création/vérification de la table
+2025-02-04 12:51:49 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => page_leave_attempt
+    [:timestamp] => 2025-02-04 12:51:49
+    [:event_data] => {"event_type":"page_leave_attempt","timestamp":"2025-02-04T11:51:49.019Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:49 - Événement enregistré avec succès, ID: 436
+2025-02-04 12:51:55 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:55 - Données brutes reçues: {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:51:55.552Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":10}
+2025-02-04 12:51:55 - Tentative de création/vérification de la table
+2025-02-04 12:51:55 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => multiple_browser_tabs
+    [:timestamp] => 2025-02-04 12:51:55
+    [:event_data] => {"event_type":"multiple_browser_tabs","timestamp":"2025-02-04T11:51:55.552Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"tab_count":10}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:55 - Événement enregistré avec succès, ID: 437
+2025-02-04 12:51:55 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:55 - Données brutes reçues: {"event_type":"window_change","timestamp":"2025-02-04T11:51:55.670Z"}
+2025-02-04 12:51:55 - Tentative de création/vérification de la table
+2025-02-04 12:51:55 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => window_change
+    [:timestamp] => 2025-02-04 12:51:55
+    [:event_data] => {"event_type":"window_change","timestamp":"2025-02-04T11:51:55.670Z"}
+    [:screen_width] => 
+    [:screen_height] => 
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:55 - Événement enregistré avec succès, ID: 439
+2025-02-04 12:51:55 - Début de la requête
+Array
+(
+    [SESSION] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 4
+                    [nom] => fadili
+                    [email] => mouniadd@gmail.com
+                    [roleu] => etudiant
+                )
+
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [SERVER] => Array
+        (
+            [REQUEST_METHOD] => POST
+            [CONTENT_TYPE] => application/json
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+        )
+
+)
+
+2025-02-04 12:51:55 - Données brutes reçues: {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:55.670Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"visible","current_state":"hidden","switch_count":7}
+2025-02-04 12:51:55 - Tentative de création/vérification de la table
+2025-02-04 12:51:55 - Tentative d'insertion avec les paramètres:
+Array
+(
+    [:user_id] => 4
+    [:exam_id] => 0
+    [:event_type] => tab_switch
+    [:timestamp] => 2025-02-04 12:51:55
+    [:event_data] => {"event_type":"tab_switch","timestamp":"2025-02-04T11:51:55.670Z","screen_width":1280,"screen_height":720,"is_fullscreen":false,"previous_state":"visible","current_state":"hidden","switch_count":7}
+    [:screen_width] => 1280
+    [:screen_height] => 720
+    [:is_fullscreen] => 
+    [:ip_address] => ::1
+    [:user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+)
+
+2025-02-04 12:51:55 - Événement enregistré avec succès, ID: 440

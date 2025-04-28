@@ -1,18 +1,511 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>bonjour etudiant  </h1>
-    <form action="passerExamen2.php" >
-        <button type="submit" name="action" >
-            passer un examen
+    <title>Interface etudiant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        :root {
+            /* Nouvelle palette de couleurs */
+            --primary-color: #3498db;
+            /* Bleu ciel */
+            --secondary-color: #2980b9;
+            /* Bleu ciel plus foncé */
+            --accent-color: #94d6fb;
+            /* Turquoise */
+            --light-blue: #a3cfec;
+            /* Bleu très clair */
+            --lightest-blue: #eaf2f8;
+            /* Bleu pâle pour fond */
+            --header-color: #f5f7fa;
+            /* Couleur claire pour le header */
+            --header-text: #2c3e50;
+            /* Texte foncé pour header */
+            --text-color: #333;
+            --bg-color: #f8f9fa;
+            --sidebar-width: 280px;
+            --header-height: 70px;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
 
-        </button>
-    </form>
-    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            overflow-x: hidden;
+        }
+
+        .wrapper {
+            display: flex;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+            width: var(--sidebar-width);
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            transition: var(--transition);
+            position: fixed;
+            height: 100vh;
+            z-index: 1000;
+            overflow-y: auto;
+            box-shadow: var(--shadow);
+            left: 0;
+            top: 0;
+        }
+
+        .sidebar h2 {
+            padding: 20px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 15px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0 10px;
+        }
+
+        .sidebar .title {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            margin-top: 20px;
+            padding: 10px 15px;
+            color: rgba(255, 255, 255, 0.6);
+            letter-spacing: 1px;
+        }
+
+        .sidebar li a {
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-bottom: 5px;
+            transition: var(--transition);
+        }
+
+        .sidebar li a:hover,
+        .sidebar li a.active {
+            background-color: var(--accent-color);
+            transform: translateX(5px);
+        }
+
+        .sidebar li a i {
+            margin-right: 12px;
+            font-size: 1.2rem;
+        }
+
+        .sidebar.hidden {
+            transform: translateX(-100%);
+        }
+
+        /* Mobile Sidebar Overlay */
+        .sidebar-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+        }
+
+        .sidebar-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Close Button */
+        .close-sidebar {
+            display: none;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Main Content Styles */
+        .main-content {
+            flex: 1;
+            margin-left: var(--sidebar-width);
+            transition: var(--transition);
+        }
+
+        .main-content.full-width {
+            margin-left: 0;
+        }
+
+        /* Header Styles avec nouvelle couleur claire */
+        header {
+            height: var(--header-height);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            background-color: var(--header-color);
+            color: var(--header-text);
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 900;
+        }
+
+        .hamburger-menu {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--header-text);
+        }
+
+        .toggle-btn {
+            background: none;
+            border: none;
+            color: var(--header-text);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 5px;
+            transition: var(--transition);
+        }
+
+        .toggle-btn:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        .search-container {
+            flex: 1;
+            max-width: 400px;
+            position: relative;
+            margin: 0 20px;
+        }
+
+        .search-container i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #aaa;
+        }
+
+        .search-bar {
+            width: 100%;
+            padding: 10px 15px 10px 40px;
+            border: 1px solid var(--light-blue);
+            border-radius: 25px;
+            background-color: var(--lightest-blue);
+            transition: var(--transition);
+        }
+
+        .search-bar:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(79, 122, 156, 0.3);
+            background-color: white;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+        }
+
+        .notifications,
+        .profile {
+            position: relative;
+            margin-left: 20px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: var(--transition);
+            color: var(--header-text);
+        }
+
+        .notifications:hover,
+        .profile:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        .profile {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        .dropdown {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: white;
+            box-shadow: var(--shadow);
+            border-radius: 8px;
+            width: 180px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: var(--transition);
+            z-index: 1000;
+        }
+
+        .profile:hover .dropdown {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown ul {
+            list-style: none;
+            padding: 10px 0;
+        }
+
+        .dropdown ul li a {
+            display: block;
+            padding: 10px 15px;
+            color: var(--text-color);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .dropdown ul li a:hover {
+            background-color: var(--lightest-blue);
+            color: var(--primary-color);
+        }
+
+        /* Main Content Area */
+        main {
+            padding: 20px;
+            height: calc(100vh - var(--header-height));
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: var(--shadow);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: block;
+            }
+
+            .toggle-btn {
+                display: none;
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+
+            .sidebar {
+                width: 250px;
+                transform: translateX(-100%);
+            }
+
+            .sidebar.visible {
+                transform: translateX(0);
+            }
+
+            .close-sidebar {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="sidebar-overlay" class="sidebar-overlay"></div>
+        <nav id="sidebar" class="sidebar hidden" aria-label="Sidebar">
+            <h2>Interface etudiant</h2>
+            <button id="close-sidebar" class="close-sidebar" aria-label="Close sidebar">
+                <i class="bi bi-x-lg"></i>
+            </button>
+            <ul>
+                <li><a target="iframe" href="etudiant_dashboard.php" class="nav-link"><i class="bi bi-house-door"></i>
+                        Tableau de bord</a></li>
+                <li class="title">Pages</li>
+                <li><a target="iframe" href="passerExamen2.php" class="nav-link"><i class="bi bi-file-earmark-plus"></i>
+                        passer un examen
+                    </a></li>
+                <li><a target="iframe" href="voir_resultats_etudiant.php" class="nav-link"><i
+                            class="bi bi-file-earmark-plus"></i>
+                        voir resultats
+                    </a></li>
+            </ul>
+        </nav>
+        <div class="main-content full-width">
+            <header>
+                <button class="hamburger-menu" aria-label="Toggle menu">
+                    <i class="bi bi-list"></i>
+                </button>
+                <button class="toggle-btn" aria-label="Toggle sidebar">☰</button>
+                <div class="icons">
+                    <span class="notifications"><i class="bi bi-bell"></i></span>
+                    <div class="profile">
+                        <i class="bi bi-person"></i>
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="#">Profil</a></li>
+                                <hr>
+                                <li><a href="logout.php" class="bi bi-box-arrow-right">Déconnexion</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <iframe src="etudiant_dashboard.php" id="iframe" name="iframe" frameborder="0"
+                    title="Main Content"></iframe>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const hamburgerMenu = document.querySelector('.hamburger-menu');
+            const toggleBtn = document.querySelector('.toggle-btn');
+            const sidebar = document.getElementById('sidebar');
+            const mainContent = document.querySelector('.main-content');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const sidebarOverlay = document.getElementById('sidebar-overlay');
+            const closeSidebarBtn = document.getElementById('close-sidebar');
+
+            // Function to show sidebar
+            function showSidebar() {
+                sidebar.classList.remove('hidden');
+                sidebar.classList.add('visible'); // Ajout de la classe 'visible' pour les mobiles
+                sidebarOverlay.classList.add('active');
+            }
+
+            // Function to hide sidebar
+            function hideSidebar() {
+                sidebar.classList.add('hidden');
+                sidebar.classList.remove('visible'); // Suppression de la classe 'visible'
+                sidebarOverlay.classList.remove('active');
+            }
+
+            // Hamburger menu (mobile)
+            hamburgerMenu.addEventListener('click', function () {
+                if (sidebar.classList.contains('hidden')) {
+                    showSidebar();
+                } else {
+                    hideSidebar();
+                }
+            });
+
+            // Toggle button (desktop)
+            toggleBtn.addEventListener('click', function () {
+                sidebar.classList.toggle('hidden');
+                mainContent.classList.toggle('full-width');
+
+                // Store user preference
+                const isHidden = sidebar.classList.contains('hidden');
+                localStorage.setItem('sidebarHidden', isHidden);
+            });
+
+            // Close sidebar when clicking overlay
+            sidebarOverlay.addEventListener('click', hideSidebar);
+
+            // Close sidebar when clicking close button
+            closeSidebarBtn.addEventListener('click', hideSidebar);
+
+            // Hide sidebar after clicking a link on mobile
+            navLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    if (window.innerWidth <= 768) {
+                        hideSidebar();
+                    }
+                });
+            });
+
+            // Add active class to current page
+            function setActivePage() {
+                const iframe = document.getElementById('iframe');
+                const currentPage = iframe.contentWindow.location.href.split('/').pop();
+
+                navLinks.forEach(link => {
+                    const linkHref = link.getAttribute('href');
+
+                    if (linkHref === currentPage) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                });
+            }
+
+            // Set active page when iframe loads
+            document.getElementById('iframe').addEventListener('load', setActivePage);
+
+            // Window resize handler
+            window.addEventListener('resize', function () {
+                if (window.innerWidth > 768) {
+                    // On desktop, restore saved preference
+                    const sidebarHidden = localStorage.getItem('sidebarHidden') === 'true';
+                    if (!sidebarHidden) {
+                        sidebar.classList.remove('hidden');
+                        mainContent.classList.remove('full-width');
+                    }
+                    sidebar.classList.remove('visible'); // Retirer la classe 'visible' sur desktop
+                    sidebarOverlay.classList.remove('active');
+                } else {
+                    // On mobile, always hide sidebar by default
+                    if (!sidebar.classList.contains('hidden')) {
+                        sidebar.classList.add('hidden');
+                        sidebar.classList.remove('visible'); // Retirer aussi 'visible'
+                        mainContent.classList.add('full-width');
+                    }
+                }
+            });
+
+            // Initial setup
+            if (window.innerWidth <= 768) {
+                // Mobile: hide sidebar by default
+                sidebar.classList.add('hidden');
+                sidebar.classList.remove('visible'); // S'assurer que 'visible' est retiré initialement
+                mainContent.classList.add('full-width');
+            } else {
+                // Desktop: use saved preference
+                const sidebarHidden = localStorage.getItem('sidebarHidden') === 'true';
+                if (sidebarHidden) {
+                    sidebar.classList.add('hidden');
+                    mainContent.classList.add('full-width');
+                } else {
+                    sidebar.classList.remove('hidden');
+                    mainContent.classList.remove('full-width');
+                }
+            }
+        });
+    </script>
 </body>
+
 </html>

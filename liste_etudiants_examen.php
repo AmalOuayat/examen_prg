@@ -17,10 +17,10 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $formateur_id = $_SESSION['user']['id'];
-    
+
     // Récupérer l'ID de l'examen depuis l'URL
     $examen_id = isset($_GET['examen_id']) ? intval($_GET['examen_id']) : 0;
-    
+
     if ($examen_id === 0) {
         die("ID de l'examen non spécifié.");
     }
@@ -65,153 +65,189 @@ try {
     $stmt->execute([$examen_id, $examen['groupe_id']]);
     $etudiants = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-} catch(PDOException $e) {
+} catch (PDOException $e) {
     die("Erreur de connexion : " . $e->getMessage());
 }
 ?>
 
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>Liste des Étudiants - <?php echo htmlspecialchars($examen['titre']); ?></title>
     <style>
         :root {
-            --primary-color: #2c3e50;
-            --secondary-color: #34495e;
-            --success-color: #27ae60;
-            --error-color: #c0392b;
-            --background-color: #f5f6fa;
-            --border-color: #dcdde1;
+            /* Nouvelle palette de couleurs */
+            --primary-color: #0f9ef7;
+            --primary-dark: #0d8de0;
+            --secondary-color: #6c757d;
+            --dark-color: #121212;
+            --light-color: #f8f9fa;
+            --border-radius: 8px;
+            --box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            box-sizing: border-box;
         }
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            background-color: var(--background-color);
+            background-color: var(--light-color);
+            color: var(--dark-color);
             margin: 0;
             padding: 20px;
+            transition: background-color 0.3s, color 0.3s;
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 960px;
             margin: 0 auto;
             background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 25px 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            transition: box-shadow var(--transition);
+        }
+
+        .container:hover {
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
         }
 
         h1 {
             color: var(--primary-color);
             text-align: center;
             margin-bottom: 30px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 12px;
+            border-bottom: 3px solid var(--primary-color);
+            font-weight: 700;
+            font-size: 2rem;
         }
 
         .info-section {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
+            background-color: #e9f2ff;
+            padding: 15px 20px;
+            border-radius: var(--border-radius);
+            margin-bottom: 25px;
+            color: var(--secondary-color);
+            font-weight: 600;
+            box-shadow: inset 0 0 8px rgba(15, 158, 247, 0.15);
         }
 
         .info-section p {
-            margin: 5px 0;
-            color: var(--secondary-color);
+            margin: 8px 0;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
-            background: white;
+            font-size: 1rem;
+            color: var(--dark-color);
         }
 
-        th, td {
+        th,
+        td {
             padding: 12px 15px;
             text-align: left;
-            border-bottom: 1px solid var(--border-color);
+            border-bottom: 1px solid #ddd;
         }
 
         th {
             background-color: var(--primary-color);
             color: white;
-            font-weight: 500;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
 
-        tr:nth-child(even) {
-            background-color: #f8f9fa;
+        tbody tr:nth-child(even) {
+            background-color: #f4f9ff;
         }
 
-        tr:hover {
-            background-color: #f1f2f6;
+        tbody tr:hover {
+            background-color: #d6eaff;
+            cursor: default;
+            transition: background-color var(--transition);
         }
 
         .status {
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-weight: 500;
             display: inline-block;
             min-width: 80px;
+            padding: 6px 12px;
+            border-radius: var(--border-radius);
+            font-weight: 600;
             text-align: center;
+            transition: background-color var(--transition), color var(--transition);
         }
 
         .passed {
-            background-color: #d4edda;
-            color: var(--success-color);
+            background-color: #d0ebff;
+            color: var(--primary-dark);
+            border: 1px solid var(--primary-color);
         }
 
         .not-passed {
-            background-color: #f8d7da;
-            color: var(--error-color);
+            background-color: #fbeaea;
+            color: #b00020;
+            border: 1px solid #e74c3c;
         }
 
-        .btn-corriger {
-            display: inline-block;
-            padding: 6px 12px;
-            background-color: var(--primary-color);
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s;
-        }
-
-        .btn-corriger:hover {
-            background-color: var(--secondary-color);
-        }
-
+        .btn-corriger,
         .back-btn {
             display: inline-block;
             padding: 8px 16px;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color var(--transition), box-shadow var(--transition);
+            box-shadow: 0 4px 8px rgba(15, 158, 247, 0.3);
+            user-select: none;
+        }
+
+        .btn-corriger {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+        }
+
+        .btn-corriger:hover {
+            background-color: var(--primary-dark);
+            box-shadow: 0 6px 12px rgba(13, 141, 224, 0.5);
+        }
+
+        .back-btn {
             background-color: var(--secondary-color);
             color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            display: inline-block;
         }
 
         .back-btn:hover {
             background-color: var(--primary-color);
+            box-shadow: 0 6px 12px rgba(15, 158, 247, 0.5);
         }
 
         .no-students {
             text-align: center;
-            padding: 20px;
+            padding: 25px;
+            background-color: #e9f2ff;
+            border-radius: var(--border-radius);
             color: var(--secondary-color);
-            background: #f8f9fa;
-            border-radius: 8px;
+            font-weight: 600;
+            box-shadow: inset 0 0 10px rgba(15, 158, 247, 0.1);
             margin-top: 20px;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <a href="corriger_examen.php" class="back-btn">← Retour à la sélection des examens</a>
-        
+
         <h1>Liste des Étudiants</h1>
-        
+
         <div class="info-section">
             <p><strong>Examen :</strong> <?php echo htmlspecialchars($examen['titre']); ?></p>
             <p><strong>Groupe :</strong> <?php echo htmlspecialchars($examen['groupe_nom']); ?></p>
@@ -241,7 +277,8 @@ try {
                             </td>
                             <td>
                                 <?php if ($etudiant['statut'] === 'Passé'): ?>
-                                    <a href="corriger_examen.php?examen_id=<?php echo $examen_id; ?>&etudiant_id=<?php echo $etudiant['id_u']; ?>" class="btn-corriger">
+                                    <a href="corriger_examen.php?examen_id=<?php echo $examen_id; ?>&etudiant_id=<?php echo $etudiant['id_u']; ?>"
+                                        class="btn-corriger">
                                         Corriger
                                     </a>
                                 <?php endif; ?>
@@ -253,4 +290,5 @@ try {
         <?php endif; ?>
     </div>
 </body>
+
 </html>

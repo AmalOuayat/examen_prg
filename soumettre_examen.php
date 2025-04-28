@@ -1,109 +1,80 @@
 <?php
 session_start();
-include 'db.php';
-require_once 'correction_automatique.php';
+require 'config.php';
+header('Content-Type: application/json');
 
-// Vérifier si l'utilisateur est connecté et est un étudiant
-if (!isset($_SESSION['user']) || $_SESSION['user']['roleu'] !== 'etudiant') {
-    die(json_encode(['success' => false, 'message' => "Accès refusé. Vous devez être connecté en tant qu'étudiant."]));
-}
-
-// Récupérer l'ID de l'utilisateur connecté
-$utilisateur_id = $_SESSION['user']['id'];
-
-// Récupérer l'ID de l'étudiant à partir de la table `etudiants`
-$stmtEtudiant = $conn->prepare("SELECT id_etudiant FROM etudiants WHERE utilisateur_id = :utilisateur_id");
-$stmtEtudiant->execute([':utilisateur_id' => $utilisateur_id]);
-$etudiant = $stmtEtudiant->fetch(PDO::FETCH_ASSOC);
-
-if (!$etudiant) {
-    die(json_encode(['success' => false, 'message' => "Étudiant non trouvé."]));
-}
-
-$etudiant_id = $etudiant['id_etudiant'];
-
-if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['examen_id']) && isset($_POST['reponses'])) {
-    // Récupérer les données du formulaire
-    $examen_id = $_POST['examen_id'];
-    $reponses = $_POST['reponses'];
-
-    try {
-        // Commencer une transaction
-        $conn->beginTransaction();
-
-        // Insérer ou mettre à jour les réponses de l'étudiant
-        foreach ($reponses as $question_id => $reponse) {
-            if (is_array($reponse)) {
-                $reponse = implode(",", $reponse); // Convertir les réponses QCM en chaîne
-            }
-
-            $stmtCheck = $conn->prepare("
-                SELECT * FROM reponses_etudiants2 
-                WHERE examen_id = :examen_id 
-                AND etudiant_id = :etudiant_id 
-                AND question_id = :question_id
-            ");
-            $stmtCheck->execute([
-                ':examen_id' => $examen_id,
-                ':etudiant_id' => $etudiant_id,
-                ':question_id' => $question_id
-            ]);
-
-            if ($stmtCheck->rowCount() > 0) {
-                $stmtUpdate = $conn->prepare("
-                    UPDATE reponses_etudiants2 
-                    SET reponse = :reponse 
-                    WHERE examen_id = :examen_id 
-                    AND etudiant_id = :etudiant_id 
-                    AND question_id = :question_id
-                ");
-                $stmtUpdate->execute([
-                    ':reponse' => $reponse,
-                    ':examen_id' => $examen_id,
-                    ':etudiant_id' => $etudiant_id,
-                    ':question_id' => $question_id
-                ]);
-            } else {
-                $stmtInsert = $conn->prepare("
-                    INSERT INTO reponses_etudiants2 
-                    (examen_id, etudiant_id, question_id, reponse) 
-                    VALUES (:examen_id, :etudiant_id, :question_id, :reponse)
-                ");
-                $stmtInsert->execute([
-                    ':examen_id' => $examen_id,
-                    ':etudiant_id' => $etudiant_id,
-                    ':question_id' => $question_id,
-                    ':reponse' => $reponse
-                ]);
-            }
-        }
-
-        // Effectuer la correction automatique
-        $correction = new CorrectionAutomatique($conn);
-        $correction->corrigerExamen($etudiant_id, $examen_id);
-
-        // Valider la transaction
-        $conn->commit();
-        
-        echo json_encode([
-            'success' => true, 
-            'message' => "Examen soumis et corrigé avec succès."
-        ]);
-        
-    } catch (Exception $e) {
-        // Vérifier si une transaction est active avant de faire un rollback
-        if ($conn->inTransaction()) {
-            $conn->rollBack();
-        }
-        echo json_encode([
-            'success' => false, 
-            'message' => "Erreur lors de la soumission : " . $e->getMessage()
-        ]);
+try {
+    // Validation
+    if (!isset($_SESSION['user']['id'])) {
+        throw new Exception("Non authentifié");
     }
-} else {
+
+    $input = json_decode(file_get_contents('php://input'), true);
+    $required = ['exam_id', 'student_id'];
+    
+    foreach ($required as $field) {
+        if (!isset($input[$field])) {
+            throw new Exception("Champ manquant : $field");
+        }
+    }
+
+    $examId = (int)$input['exam_id'];
+    $studentId = (int)$input['student_id'];
+
+    // Vérifier l'accès à l'examen
+    $stmt = $conn->prepare("SELECT * FROM etudiant_examen 
+                          WHERE id_examen = ? AND id_etudiant = ?
+                          AND statut = 'en_cours'");
+    $stmt->execute([$examId, $studentId]);
+    if (!$stmt->fetch()) {
+        throw new Exception("Examen non disponible");
+    }
+
+    // Calcul du score
+    $score = 0;
+    $stmt = $conn->prepare("SELECT q.id_q, q.note_max, q.bonne_reponse, re.reponse
+                          FROM reponses_etudiants2 re
+                          JOIN questions3 q ON re.question_id = q.id_q
+                          WHERE re.examen_id = ? AND re.etudiant_id = ?");
+    $stmt->execute([$examId, $studentId]);
+    
+    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+        if ($row['type'] === 'qcm') {
+            $reponse = json_decode($row['reponse'], true);
+            $bonneReponse = json_decode($row['bonne_reponse'], true);
+            sort($reponse);
+            sort($bonneReponse);
+            if ($reponse === $bonneReponse) $score += $row['note_max'];
+        } else {
+            if (trim(strtolower($row['reponse'])) === trim(strtolower($row['bonne_reponse']))) {
+                $score += $row['note_max'];
+            }
+        }
+    }
+
+    // Mise à jour de la base
+    $conn->beginTransaction();
+
+    // Marquer l'examen comme terminé
+    $stmt = $conn->prepare("UPDATE etudiant_examen 
+                          SET statut = 'termine', date_soumission = NOW()
+                          WHERE id_examen = ? AND id_etudiant = ?");
+    $stmt->execute([$examId, $studentId]);
+
+    // Enregistrer le résultat
+    $stmt = $conn->prepare("INSERT INTO resultats_examens 
+                          (etudiant_id, examen_id, score, date_soumission)
+                          VALUES (?, ?, ?, NOW())");
+    $stmt->execute([$studentId, $examId, $score]);
+
+    $conn->commit();
+    echo json_encode(['success' => true, 'score' => $score]);
+
+} catch (Exception $e) {
+    $conn->rollBack();
+    http_response_code(400);
     echo json_encode([
-        'success' => false, 
-        'message' => "Données de formulaire manquantes ou méthode non autorisée"
+        'success' => false,
+        'error' => $e->getMessage()
     ]);
 }
-?>

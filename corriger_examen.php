@@ -194,150 +194,185 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Correction des Examens</title>
     <style>
-        :root {
-            --primary-color: #2c3e50;
-            --secondary-color: #34495e;
-            --success-color: #27ae60;
-            --error-color: #c0392b;
-            --background-color: #f5f6fa;
-            --border-color: #dcdde1;
-        }
+       :root {
+    /* Nouvelle palette de couleurs */
+    --primary-color: #0f9ef7;
+    --primary-dark: #0d8de0;
+    --secondary-color: #6c757d;
+    --dark-color: #121212;
+    --light-color: #f8f9fa;
+    --border-radius: 8px;
+    --box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            background-color: var(--background-color);
-            margin: 0;
-            padding: 20px;
-        }
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: box-shadow 0.3s;
+}
 
-        h1 {
-            color: var(--primary-color);
-            text-align: center;
-            margin-bottom: 30px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid var(--primary-color);
-        }
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 30px;
+}
 
-        .filters {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 30px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 8px;
-        }
+.filters {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
 
-        select {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            background-color: white;
-        }
+.filters label {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
 
-        .student-section {
-            background: white;
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
+.filters select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    appearance: none;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
 
-        .student-section h2 {
-            color: var(--secondary-color);
-            margin-top: 0;
-            padding-bottom: 10px;
-            border-bottom: 1px solid var(--border-color);
-        }
+.filters select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(var(--primary-color-rgb), 0.5);
+}
 
-        .question-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr;
-            gap: 15px;
-            margin-top: 15px;
-        }
+.student-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--light-color);
+    border-radius: var(--border-radius);
+}
 
-        .question-item {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 15px;
-        }
+.student-section h2 {
+    color: var(--primary-dark);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
 
-        .reponse-text {
-            background: white;
-            padding: 10px;
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            margin: 10px 0;
-        }
+.question-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    background-color: #f9f9f9;
+}
 
-        .note-input {
-            width: 80px;
-            padding: 5px;
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-        }
+.question-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+    align-items: start;
+}
 
-        .note-max {
-            color: var(--secondary-color);
-            font-weight: bold;
-        }
+.question-text {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 
-        .submit-btn {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            margin-top: 15px;
-        }
+.reponse-text {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    background-color: #fff;
+    margin-top: 5px;
+}
 
-        .submit-btn:hover {
-            background-color: var(--secondary-color);
-        }
+.note-max {
+    color: var(--secondary-color);
+    font-size: 0.9em;
+}
 
-        .success {
-            background-color: #d4edda;
-            color: var(--success-color);
-            padding: 10px;
-            border-radius: 4px;
-            margin-bottom: 20px;
-        }
+.note-input {
+    width: 60px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    background-color: #fff;
+    color: var(--dark-color);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
 
-        .error {
-            background-color: #f8d7da;
-            color: var(--error-color);
-            padding: 10px;
-            border-radius: 4px;
-            margin-bottom: 20px;
-        }
+.note-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(var(--primary-color-rgb), 0.5);
+}
 
-        .back-btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: var(--secondary-color);
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            margin-bottom: 20px;
-        }
+.submit-btn {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
 
-        .back-btn:hover {
-            background-color: var(--primary-color);
-        }
+.submit-btn:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+}
+
+.success,
+.error {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: var(--border-radius);
+}
+
+.success {
+    background-color: #d4edda;
+    color: #28a745;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
     </style>
 </head>
 <body>

@@ -101,18 +101,187 @@ $queryFormateur = $pdo->query("SELECT * FROM utilisateurs WHERE roleu = 'formate
     <title>Module Insertion</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
+        :root {
+            /* Nouvelle palette de couleurs */
+            --primary-color: #0f9ef7;
+            --primary-dark: #0d8de0;
+            --secondary-color: #6c757d;
+            --dark-color: #121212;
+            --light-color: #f8f9fa;
+            --border-radius: 8px;
+            --box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+
+            /* Variables additionnelles dérivées de la nouvelle palette */
+            --primary-light: #61c1ff;
+            --secondary-light: #adb5bd;
+            --gray-dark: #343a40;
+            --gray: #6c757d;
+            --gray-light: #dee2e6;
+            --danger: #dc3545;
+            --warning: #ffc107;
+            --success: #28a745;
+
+            /* Variables de mise en page */
+            --sidebar-width: 280px;
+            --header-height: 70px;
+            --card-shadow: var(--box-shadow);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--light-color);
+            color: var(--dark-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        form {
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--gray-dark);
+            font-weight: 500;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid var(--gray-light);
+            border-radius: var(--border-radius);
+            box-sizing: border-box;
+            font-size: 16px;
+            color: var(--dark-color);
+            background-color: var(--light-color);
+        }
+
+        select {
+            appearance: none;
+            background-image: url('data:image/svg+xml;charset=UTF-8,<svg viewBox="0 0 24 24" fill="%236c757d" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+            background-repeat: no-repeat;
+            background-position: right 10px top 50%;
+            background-size: 20px;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 100px;
+        }
+
+        button,
+        input[type="submit"] {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover,
+        input[type="submit"]:hover {
+            background-color: var(--primary-dark);
+        }
+
         .checkbox-container {
             max-height: 200px;
             overflow-y: auto;
-            border: 1px solid #ccc;
+            border: 1px solid var(--gray-light);
             padding: 10px;
+            border-radius: var(--border-radius);
+            margin-bottom: 15px;
+            background-color: #fff;
         }
+
         .checkbox-group {
             margin-bottom: 10px;
         }
+
         .checkbox-group-title {
             font-weight: bold;
             margin-bottom: 5px;
+            color: var(--gray-dark);
+        }
+
+        /* Improved Checkbox Styling */
+        input[type="checkbox"] {
+            appearance: none;
+            /* Hide default checkbox */
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            width: 18px;
+            height: 18px;
+            border: 1px solid var(--gray);
+            border-radius: 3px;
+            outline: none;
+            cursor: pointer;
+            position: relative;
+            background-color: var(--light-color);
+            transition: background-color 0.2s;
+        }
+
+        input[type="checkbox"]:checked {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        input[type="checkbox"]:checked::before {
+            content: '\f00c';
+            /* FontAwesome checkmark */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        label[for^="filiere-"],
+        label[for^="branche-"] {
+            margin-left: 5px;
+            color: var(--dark-color);
+            cursor: pointer;
+        }
+
+        /* Validation Styles */
+        input:invalid {
+            border-color: var(--primary-color);
+            /* Change to primary color */
+        }
+
+        input:invalid:focus {
+            box-shadow: 0 0 5px var(--primary-color);
+            /* Change to primary color */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            form {
+                padding: 20px;
+            }
+
+            input[type="text"],
+            input[type="number"],
+            select,
+            textarea {
+                font-size: 14px;
+            }
         }
     </style>
 </head>

@@ -18,8 +18,8 @@ try {
         $stmt = $conn->prepare("SELECT * FROM utilisateurs WHERE email = :email");
         $stmt->execute([':email' => $email]);
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
-        
-        
+
+
         // Récupérer les informations de l'utilisateur depuis la base
         $stmt = $conn->prepare("SELECT * FROM utilisateurs WHERE email = :email");
         $stmt->bindParam(':email', $email);
@@ -31,29 +31,31 @@ try {
             if ($user['statut'] === 'bloque') {
                 echo "Votre compte est bloqué. Veuillez contacter l'administrateur.";
             } else {
-            // Stocker les informations de l'utilisateur en session
-            $_SESSION['user'] = [
-                'id' => $user['id_u'],
-                'nom' => $user['nom'],
-                'email' => $user['email'],
-                'roleu' => $user['roleu']
-            ];
+                // Stocker les informations de l'utilisateur en session
+                $_SESSION['user'] = [
+                    'id' => $user['id_u'],
+                    'nom' => $user['nom'],
+                    'prenom' => $user['prenom'],
+                    'email' => $user['email'],
+                    'roleu' => $user['roleu']
+                ];
 
-            // Redirection selon le rôle
-            switch ($user['roleu']) {
-                case 'admin':
-                    header("Location: admin.php");
-                    exit();
-                case 'formateur':
-                    header("Location: formateur.html");
-                    exit();
-                case 'etudiant':
-                    header("Location: etudiant.html");
-                    exit();
-                default:
-                    echo "Rôle non reconnu.";
-                    exit();
-                }}
+                // Redirection selon le rôle
+                switch ($user['roleu']) {
+                    case 'admin':
+                        header("Location: admin.php");
+                        exit();
+                    case 'formateur':
+                        header("Location: formateur.php");
+                        exit();
+                    case 'etudiant':
+                        header("Location: etudiant.php");
+                        exit();
+                    default:
+                        echo "Rôle non reconnu.";
+                        exit();
+                }
+            }
         } else {
             echo "Email ou mot de passe incorrect.";
         }
